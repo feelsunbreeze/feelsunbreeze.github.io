@@ -1,6 +1,16 @@
+@font-face {
+  font-family: Pacifico;
+  src: url(fonts/Pacifico-Regular.ttf);
+}
+@media (max-height: 50px) {
+  #preloader {
+    background: #000;
+    background-size: 100%;
+  }
+}
 #preloader {
-  background: #000 url(assets/logo_animated_black.gif) no-repeat center;
-  background-size: 30%;
+  background: #1a4d2e url(assets/logo_animated_green.gif) no-repeat center;
+  background-size: 20%;
   margin: -8px;
   height: 100vh;
   width: 100%;
@@ -8,13 +18,15 @@
   z-index: 100;
 }
 #main {
-  text-align: center;
-  margin-top: 310px;
-  transition: opacity 2s ease-in;
+  color: #faf3e3;
+  font-family: "Pacifico", cursive;
   opacity: 0;
   display: none;
-  color: white;
+  margin-top: 110px;
+  margin-left: 200px;
+  font-size: 80px;
+  transition: opacity 2s ease-in;
 }
 body {
-  background-color: #000;
+  background-color: #1a4d2e;
 }
