@@ -1,0 +1,16 @@
+#preloader{
+    background: #000 url(assets/logo_animated_black.gif) no-repeat center;
+    background-size: 30%;
+    margin: -8px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+}
+#animated_logo {
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    size: 50px;
+  }
