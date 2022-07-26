@@ -14,14 +14,16 @@
   }
 }
 @media only screen and (max-width: 500px) {
-  #main {
+  .greetings-span {
     color: #faf3e3;
-    font-family: "Pacifico", cursive;
+    font-family: "Pacifico", sans-serif;
     opacity: 0;
     display: none;
     margin-top: 110px;
     margin-left: 30px;
+    margin-bottom: 110px;
     font-size: 80px;
     transition: opacity 2s ease-in;
+    display: inline;
   }
 }

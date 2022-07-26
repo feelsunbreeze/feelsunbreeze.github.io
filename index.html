@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- 🥚 Here is your Easter Egg, Happy? -->
+    <!-- There are no Easter Eggs here. Go away! -->
     <meta charset="UTF-8" />
     <meta
       name="viewport"
@@ -16,8 +16,29 @@
   </head>
   <body>
     <div id="preloader"></div>
-    <div id="logo"></div>
-    <div id="main">Hello!</div>
+    <div id="greetings-div">
+      <span class="greetings-span"></span>
+    </div>
     <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".greetings-span", {
+        strings: [
+          "Bonjour!",
+          "Hello!",
+          "Salam!",
+          "Hola!",
+          "Namastē!",
+          "你好! ^400",
+        ],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+        smartBackspace: true,
+        showCursor: true,
+        cursorChar: "___",
+      });
+    </script>
+    <!-- 🥚 -->
   </body>
 </html>
