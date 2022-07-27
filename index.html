@@ -16,27 +16,30 @@
   </head>
   <body>
     <div id="preloader"></div>
-    <div id="greetings-div">
-      <span class="greetings-span"></span>
+    <div id="body-div">
+      <div id="greetings-div">
+        <span id="greetings-span"></span>
+      </div>
+      <div id="intro-div">
+        I am <strong>Sunbreeze</strong>, an <strong>18</strong> years old
+        <strong>AI/ML</strong> enthusiast with a keen interest in
+        <strong>UI/UX</strong> design.<br />Alongside <u>coding</u> and an
+        insatiable lust for <u>knowledge</u>, I am utterly passionate about
+        <u>philosophy</u>.<br />I also enjoy playing <u>video-games</u> and have
+        a deep attachment with <u>music</u>!
+      </div>
     </div>
     <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
-      var typed = new Typed(".greetings-span", {
-        strings: [
-          "Bonjour!",
-          "Hello!",
-          "Salam!",
-          "Hola!",
-          "Namastē!",
-          "你好! ^400",
-        ],
-        typeSpeed: 100,
-        backSpeed: 100,
+      var typed = new Typed("#greetings-span", {
+        strings: ["Bonjour!", "Hello!", "Salam!", "Hola!", "Namastē!", "你好!"],
+        typeSpeed: 90,
+        backSpeed: 90,
         loop: true,
         smartBackspace: true,
         showCursor: true,
-        cursorChar: "___",
+        cursorChar: "_",
       });
     </script>
     <!-- 🥚 -->
