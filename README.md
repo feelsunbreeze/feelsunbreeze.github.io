@@ -1,1 +1,3 @@
-You are more than welcome to take inspiration from my website.
+# Feelsunbreeze
+Welcome to my personal website!  
+You are more than welcome to take inspiration from it :)
