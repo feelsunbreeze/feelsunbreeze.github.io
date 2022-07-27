@@ -5,7 +5,7 @@ You are more than welcome to take inspiration from it! 🫶
 HTML, CSS, Javascript.  
 [TypedJS](https://github.com/mattboldt/typed.js/)
 ## Features
-A cute color palette.  
-Information about me.
+🎉 A cute color palette.  
+🎉 Beautiful UI
 ## Screenshots
 Soon! 🫶
