@@ -7,5 +7,5 @@
 ## Features
 🎉 A cute color palette.  
 🎉 Beautiful UI
-## Screenshots
-Soon! 🫶
+## Screenshot
+![Image](Screenshot.png "website_screenshot")
