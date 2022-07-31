@@ -8,4 +8,4 @@
 🎉 A cute color palette.  
 🎉 Beautiful UI
 ## Screenshot
-![Image](Screenshot.png "website_screenshot")
+![Image](site_screenshot.png "website_screenshot")
