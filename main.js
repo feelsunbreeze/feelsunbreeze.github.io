@@ -7,6 +7,6 @@ function init() {
 
     main.style.display = "inline";
     setTimeout(() => (main.style.opacity = 1), 50);
-  }, 3200);
+  }, 1000);
 }
 init();

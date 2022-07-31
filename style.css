@@ -25,18 +25,14 @@ body {
     position: fixed;
     z-index: 100;
   }
-}
-#body-div {
-  opacity: 0;
-  display: none;
-  transition: opacity 2s ease-in;
-}
-@media only screen and (min-width: 501px) {
+  #body-div {
+    opacity: 0;
+    display: none;
+    transition: opacity 2s ease-in;
+  }
   #greetings-div {
     margin-top: 110px;
   }
-}
-@media only screen and (min-width: 501px) {
   #greetings-span {
     color: #faf3e3;
     font-family: "Pacifico", sans-serif;
@@ -44,6 +40,27 @@ body {
     font-size: 500%;
     text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
       -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  #intro-div {
+    color: #faf3e3;
+    width: 500px;
+    font-family: "Apercu", sans-serif;
+    font-size: 25px;
+    margin-top: -3px;
+    margin-left: 149px;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+      -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  #photo-div {
+    margin-top: -330px;
+  }
+  #photo-img {
+    width: 200px;
+    margin-left: 800px;
+    animation: heartBeat;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
   }
 }
 strong {
@@ -57,15 +74,7 @@ u {
   text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
 }
-@media only screen and (min-width: 501px) {
-  #intro-div {
-    color: #faf3e3;
-    width: 500px;
-    font-family: "Apercu", sans-serif;
-    font-size: 25px;
-    margin-top: -3px;
-    margin-left: 149px;
-    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
-      -1px 1px 0 #000, 1px 1px 0 #000;
-  }
+.shadow {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
 }

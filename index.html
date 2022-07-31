@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="style_mobile.css" />
     <link rel="icon" type="image/x-icon" href="/assets/logo_clean.png" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>Sunbreeze</title>
   </head>
   <body>
@@ -27,13 +31,20 @@
         insatiable lust for <u>knowledge</u>, I am utterly passionate about
         <u>philosophy</u>.<br />I also enjoy playing <u>video-games</u> and have
         a deep attachment with <u>music</u>!
-      </div>
-    </div>
+      <div id="photo-div"><img id="photo-img" src="/assets/logo.svg" class="shadow" alt="Sunbreeze" /></div>
     <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
       var typed = new Typed("#greetings-span", {
-        strings: ["Bonjour!", "Hello!", "Salam!", "Hola!", "Namastē!", "你好!"],
+        strings: [
+          "Hello!",
+          "Bonjour!",
+          "Salam!",
+          "Hola!",
+          "Hei!",
+          "नमस्ते!",
+          "你好!",
+        ],
         typeSpeed: 90,
         backSpeed: 90,
         loop: true,
@@ -41,6 +52,12 @@
         showCursor: true,
         cursorChar: "_",
       });
+    </script>
+    <script>
+      const load = document.querySelector("#photo-img")
+      setTimeout(() => {
+        load.style.animationPlayState = "paused"
+      }, 3000)
     </script>
     <!-- 🥚 -->
   </body>
