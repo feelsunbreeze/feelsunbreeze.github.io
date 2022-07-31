@@ -13,17 +13,6 @@
     position: fixed;
     z-index: 100;
   }
-  #photo-div {
-    margin-top: -777px;
-  }
-  #photo-img {
-    width: 200px;
-    margin-left: 75px;
-    animation: heartBeat;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-  }
   #greetings-div {
     margin-top: 200px;
   }
