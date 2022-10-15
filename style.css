@@ -43,7 +43,7 @@ body {
   #photo-img {
     width: 200px;
     margin-left: 800px;
-    margin-top: 70px;
+    margin-top: 90px;
     animation: heartBeat;
     animation-duration: 2s;
     animation-iteration-count: infinite;
