@@ -7,5 +7,3 @@
 ## Features
 🎉 A cute color palette.  
 🎉 Beautiful UI
-## Screenshot
-![Image](site_screenshot.png "website_screenshot")
