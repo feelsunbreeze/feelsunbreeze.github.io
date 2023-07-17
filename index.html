@@ -1,59 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <!-- There are no Easter Eggs here. Go away! -->
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
-    <meta name="robots" content="INDEX, FOLLOW" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style_mobile.css" />
-    <link rel="icon" type="image/x-icon" href="/assets/logo_clean.png" />
+    <title>Blossom</title>
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <title>Sunbreeze</title>
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="static/assets/butterfly.ico"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="typed.js"></script>
   </head>
   <body>
-      <div id="greetings-div">
-        <span id="greetings-span"></span>
+    <div id="bg-wrapper">
+      <nav>
+        <div class="logo-container">
+          <a href="index.html">
+            <img
+              src="assets/logo.png"
+              alt="Blossom Logo"
+              class="logo-image"
+            />
+            <span class="logo-text">Sunbreeze</span>
+          </a>
+        </div>
+      </nav>
+      <div id="greeting-div"><span id="greeting"></span></div>
+      <script>
+        var typed = new Typed("#greeting", {
+          strings: [
+            "Hello!",
+            "Bonjour!",
+            "Salam!",
+            "Hola!",
+            "Hei!",
+            "नमस्ते!",
+            "你好!",
+          ],
+          typeSpeed: 90,
+          backSpeed: 90,
+          loop: true,
+          smartBackspace: true,
+          showCursor: true,
+          cursorChar: "_",
+        });
+      </script>
+      <p id="information">
+        I am <b>Sunbreeze</b>, a passionate music producer with a deep love for all things concerned with sound. I am also an absolute fiend when it comes to seeking knowledge and greatly treasure topics of <b>Philosophy</b> and <b>Psychology</b>. 
+        <br>Nature is where it's at; however, I also keep up with <b>Technology</b> as it endlessly fascinates me.
+      </p>
+      <div id="link-tree-div">
+        <a href="https://linktr.ee/feelsunbreeze" id="try-blossom-a">
+        <p>Link Tree</p>
       </div>
-      <div id="intro-div">
-        I am <strong>Sunbreeze</strong>, an <strong>18</strong> years old
-        <strong>AI</strong> student with a keen interest in the
-        <strong>arts</strong>.<br />I enjoy <u>coding</u>, <u>music</u> and <u>learning</u>.<br /><br />You can find my stuff at <a href="https://linktr.ee/feelsunbreeze" target="_blank"><i>click me!</i></a>
-      <div id="photo-div"><img id="photo-img" src="/assets/logo.svg" class="shadow" alt="Sunbreeze" /></div>
-    <script src="main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-      var typed = new Typed("#greetings-span", {
-        strings: [
-          "Hello!",
-          "Bonjour!",
-          "Salam!",
-          "Hola!",
-          "Hei!",
-          "नमस्ते!",
-          "你好!",
-        ],
-        typeSpeed: 90,
-        backSpeed: 90,
-        loop: true,
-        smartBackspace: true,
-        showCursor: true,
-        cursorChar: "_",
-      });
-    </script>
-    <script>
-      const load = document.querySelector("#photo-img")
-      setTimeout(() => {
-        load.style.animationPlayState = "paused"
-      }, 1000)
-    </script>
-    <!-- 🥚 -->
+      
   </body>
 </html>
