@@ -4,6 +4,3 @@
 ## Frameworks
 ✔️ HTML, CSS, Javascript.  
 ✔️ [TypedJS](https://github.com/mattboldt/typed.js/)
-## Features
-🎉 A cute color palette.  
-🎉 Beautiful UI
